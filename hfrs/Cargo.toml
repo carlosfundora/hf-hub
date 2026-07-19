@@ -1,7 +1,8 @@
 [package]
 name = "hfrs"
 version = "1.0.0"
-edition = "2024"
+edition.workspace = true
+rust-version.workspace = true
 description = "Command-line interface for the Hugging Face Hub"
 license = "Apache-2.0"
 
